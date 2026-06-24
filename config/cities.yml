@@ -1,0 +1,48 @@
+# ──────────────────────────────────────────────
+# Inside Airbnb Data Sources Configuration
+# ──────────────────────────────────────────────
+
+cities:
+  bangkok:
+    display_name: "Bangkok"
+    country: "Thailand"
+    region: "central-thailand"
+    snapshot_date: "2025-09-26"
+
+    base_url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2025-09-26"
+
+    files:
+      listings_detailed:
+        url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2025-09-26/data/listings.csv.gz"
+        local_name: "listings_detailed.csv.gz"
+        description: "Detailed listing information including descriptions, review scores, host info"
+
+      calendar:
+        url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2025-09-26/data/calendar.csv.gz"
+        local_name: "calendar.csv.gz"
+        description: "Daily calendar data with pricing and availability for each listing"
+
+      reviews_detailed:
+        url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2025-09-26/data/reviews.csv.gz"
+        local_name: "reviews_detailed.csv.gz"
+        description: "Detailed review data with reviewer info and comments"
+
+      listings_summary:
+        url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2025-09-26/visualisations/listings.csv"
+        local_name: "listings_summary.csv"
+        description: "Summary listing data used for visualisations"
+
+      reviews_summary:
+        url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2025-09-26/visualisations/reviews.csv"
+        local_name: "reviews_summary.csv"
+        description: "Summary review data with date and listing_id"
+
+      neighbourhoods:
+        url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2025-09-26/visualisations/neighbourhoods.csv"
+        local_name: "neighbourhoods.csv"
+        description: "List of neighbourhoods"
+
+      neighbourhoods_geojson:
+        url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2025-09-26/visualisations/neighbourhoods.geojson"
+        local_name: "neighbourhoods.geojson"
+        description: "GeoJSON boundaries for neighbourhoods"

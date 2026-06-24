@@ -1,0 +1,25 @@
+{
+    "python.defaultInterpreterPath": ".venv/Scripts/python.exe",
+    "python.formatting.provider": "none",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "data/raw": true,
+        "data/warehouse": true
+    },
+    "editor.rulers": [100],
+    "files.trimTrailingWhitespace": true
+}

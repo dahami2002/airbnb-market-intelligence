@@ -1,0 +1,31 @@
+model,feature,importance
+XGBoost,price_per_bedroom,0.28610837
+XGBoost,bedrooms,0.17977291
+XGBoost,room_type_Shared room,0.074324355
+XGBoost,accommodates,0.054134753
+XGBoost,neighbourhood_cleansed_Vadhana,0.032785688
+XGBoost,bathrooms,0.029802766
+XGBoost,neighbourhood_cleansed_Parthum Wan,0.027656576
+XGBoost,neighbourhood_cleansed_Bang Khen,0.025754837
+XGBoost,neighbourhood_cleansed_Khlong Toei,0.023987379
+XGBoost,room_type_Private room,0.020393884
+XGBoost,neighbourhood_cleansed_Ratchathewi,0.018989092
+XGBoost,neighbourhood_cleansed_Samphanthawong,0.018693069
+XGBoost,neighbourhood_cleansed_Sai Mai,0.017243022
+XGBoost,neighbourhood_cleansed_Bang Rak,0.012772454
+XGBoost,reviews_per_month,0.011281288
+XGBoost,neighbourhood_cleansed_Phra Khanong,0.010317013
+XGBoost,neighbourhood_cleansed_Huai Khwang,0.007192785
+XGBoost,host_tenure_years,0.006953413
+XGBoost,neighbourhood_cleansed_Phra Nakhon,0.006746426
+XGBoost,room_type_Entire home/apt,0.006609366
+XGBoost,neighbourhood_cleansed_Dusit,0.0058722747
+XGBoost,neighbourhood_cleansed_Bang Sue,0.0054414105
+XGBoost,neighbourhood_cleansed_Thon buri,0.0053962283
+XGBoost,neighbourhood_cleansed_Bangkok Noi,0.0053453
+XGBoost,neighbourhood_cleansed_Bang Na,0.005118627
+XGBoost,neighbourhood_cleansed_Chom Thong,0.0050585647
+XGBoost,number_of_reviews,0.0050170473
+XGBoost,neighbourhood_cleansed_Saphan Sung,0.005008334
+XGBoost,availability_365,0.00475112
+XGBoost,neighbourhood_cleansed_Lak Si,0.0046822843

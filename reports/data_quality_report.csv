@@ -1,0 +1,13 @@
+check_name,table_name,status,failed_rows,total_rows,severity,notes
+id_not_null,listings,PASS,0,28806,ERROR,All values present
+id_no_duplicates,listings,PASS,0,28806,ERROR,No duplicates
+price_greater_than_0,listings,PASS,0,28806,WARNING,All positive
+"latitude_in_range_[-90,90]",listings,PASS,0,28806,ERROR,All in range
+"longitude_in_range_[-180,180]",listings,PASS,0,28806,ERROR,All in range
+"availability_365_in_range_[0,365]",listings,PASS,0,28806,WARNING,All in range
+room_type_not_null,listings,PASS,0,28806,ERROR,All values present
+listing_id_not_null,calendar,PASS,0,10514202,ERROR,All values present
+date_valid_date,calendar,PASS,0,10514202,ERROR,All dates valid
+available_is_boolean,calendar,PASS,0,10514202,WARNING,All boolean
+listing_id_not_null,reviews,PASS,0,583333,ERROR,All values present
+date_valid_date,reviews,PASS,0,583333,WARNING,All dates valid

@@ -1,0 +1,10 @@
+insight_id,chart_name,finding,business_interpretation,limitation
+1,price_distribution,"Median price is 1,370 THB. Distribution is right-skewed with 23,040 listings.","The market is dominated by affordable listings, with a long tail of luxury properties.",Top 1% outliers excluded for visualisation. Currency is Thai Baht (THB).
+2,price_by_room_type,'Hotel room' has the highest median price. 4 room types observed.,Entire homes/apartments command premium pricing. Shared/private rooms serve the budget segment.,Median used to reduce impact of extreme values.
+3,top_neighbourhoods_price,"Top neighbourhood: Parthum Wan (median 2,248 THB).",Premium neighbourhoods likely correlate with tourist/CBD areas.,Only top 15 shown. Small-sample neighbourhoods may have unreliable medians.
+4,listings_by_neighbourhood,"Most listings in Vadhana (4,305 listings).",High-density areas indicate popular tourist or business districts.,Only top 15 shown.
+5,host_listing_distribution,72.6% of listings belong to professional hosts (≥3 listings).,Indicates the degree of market professionalisation.,Threshold of ≥3 is arbitrary but commonly used in Airbnb research.
+6,professional_vs_casual,"Professional hosts: 20,909 listings. Casual: 7,897 listings.",Professional hosts may operate differently in pricing and service quality.,Professional defined as ≥3 listings per host. Does not account for multi-platform hosts.
+7,review_score_distribution,"Median review score: 4.85. 18,716 listings with reviews.","Scores are typically left-skewed (most hosts rated highly), reflecting selection bias in reviews.",Only listings with reviews included. Listings without reviews are excluded.
+8,availability_by_month,Availability ranges from 46.3% to 76.6%.,Lower availability months may indicate higher demand or host blocking.,"available=False may mean host-blocked, not necessarily booked."
+9,weekend_vs_weekday_price,"Weekend median: 0 THB, Weekday: 0 THB (+0.0% difference).",Weekend premiums suggest leisure-driven demand.,Weekend defined as Friday–Saturday nights. Definition may vary by market.
